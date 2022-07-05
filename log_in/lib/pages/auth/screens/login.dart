@@ -35,6 +35,7 @@ class logInState extends State<logIn> {
           Padding(
             padding: const EdgeInsets.all(20.0),
             child: Textfield(
+              type: TextInputType.text,
               TextfieldLabel: 'User Name',
               textIcon: Icon(
                 Icons.person,
@@ -48,6 +49,7 @@ class logInState extends State<logIn> {
           Padding(
             padding: const EdgeInsets.all(20.0),
             child: Textfield(
+              type: TextInputType.visiblePassword,
               TextfieldLabel: 'Password ',
               textIcon: const Icon(
                 Icons.password_outlined,
