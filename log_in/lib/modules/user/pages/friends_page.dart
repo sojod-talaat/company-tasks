@@ -26,10 +26,11 @@ class FriendPage extends StatelessWidget {
       body: ListView.builder(
         itemCount: friend.length,
         itemBuilder: (context, index) {
-          return ListTileWidget(
-              leadingIcon: (Icons.abc),
-              subTitle: 'hello world',
-              title: friend[index]);
+          return ListTile(
+            leading: Icon(Icons.abc),
+            title: Text(friend[index]),
+            subtitle: Text('hello worlds'),
+          );
         },
       ),
     );
