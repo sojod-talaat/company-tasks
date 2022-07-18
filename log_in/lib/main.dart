@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-
-import 'modules/user/screens/screen_one.dart';
+import 'package:log_in/modules/Data/pages/data_featch.dart';
 
 void main() {
-  runApp(MaterialApp(debugShowCheckedModeBanner: false, home: FriendPage()));
+  runApp(const MaterialApp(
+      debugShowCheckedModeBanner: false, home: DataFetchUI()));
 }

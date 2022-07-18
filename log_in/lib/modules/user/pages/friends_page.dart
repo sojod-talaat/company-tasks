@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:log_in/config/theme/palette.dart';
 
-import 'package:log_in/modules/FriendPage.dart/ui_components/ListTileWidget.dart';
-
 class FriendPage extends StatelessWidget {
   FriendPage({Key? key}) : super(key: key);
   List<String> friend = [
